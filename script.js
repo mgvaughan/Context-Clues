@@ -7,8 +7,6 @@ $(document).ready(function () {
     for (var i = 1; i < 101; i++) {
         $('<h3 ' + 'id="' + i + '">Accusation ' + i + '</h3>').appendTo('body');
         $('h3').addClass('h3');
-      
-
     }
   
     function alertText() {
